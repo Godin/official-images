@@ -1,24 +1,34 @@
-# this file is generated via https://github.com/rust-lang-nursery/docker-rust/blob/da8bc5716ede5f18748e4daa92f85e9a9d9c1454/generate-stackbrew-library.sh
+# this file is generated via https://github.com/rust-lang-nursery/docker-rust/blob/21171fdd92e29acb045a41cd58b0d30d66aeaa7f/x.py
 
 Maintainers: Steven Fackler <sfackler@gmail.com> (@sfackler)
 GitRepo: https://github.com/rust-lang-nursery/docker-rust.git
 
-Tags: 1.28.0-stretch, 1-stretch, 1.28-stretch, stretch, 1.28.0, 1, 1.28, latest
+Tags: 1-buster, 1.54-buster, 1.54.0-buster, buster, 1, 1.54, 1.54.0, latest
 Architectures: amd64, arm32v7, arm64v8, i386
-GitCommit: da8bc5716ede5f18748e4daa92f85e9a9d9c1454
-Directory: 1.28.0/stretch
+GitCommit: 21171fdd92e29acb045a41cd58b0d30d66aeaa7f
+Directory: 1.54.0/buster
 
-Tags: 1.28.0-slim-stretch, 1-slim-stretch, 1.28-slim-stretch, slim-stretch, 1.28.0-slim, 1-slim, 1.28-slim, slim
+Tags: 1-slim-buster, 1.54-slim-buster, 1.54.0-slim-buster, slim-buster, 1-slim, 1.54-slim, 1.54.0-slim, slim
 Architectures: amd64, arm32v7, arm64v8, i386
-GitCommit: da8bc5716ede5f18748e4daa92f85e9a9d9c1454
-Directory: 1.28.0/stretch/slim
+GitCommit: 21171fdd92e29acb045a41cd58b0d30d66aeaa7f
+Directory: 1.54.0/buster/slim
 
-Tags: 1.28.0-jessie, 1-jessie, 1.28-jessie, jessie
-Architectures: amd64, arm32v7, i386
-GitCommit: da8bc5716ede5f18748e4daa92f85e9a9d9c1454
-Directory: 1.28.0/jessie
+Tags: 1-bullseye, 1.54-bullseye, 1.54.0-bullseye, bullseye
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: 21171fdd92e29acb045a41cd58b0d30d66aeaa7f
+Directory: 1.54.0/bullseye
 
-Tags: 1.28.0-slim-jessie, 1-slim-jessie, 1.28-slim-jessie, slim-jessie
-Architectures: amd64, arm32v7, i386
-GitCommit: da8bc5716ede5f18748e4daa92f85e9a9d9c1454
-Directory: 1.28.0/jessie/slim
+Tags: 1-slim-bullseye, 1.54-slim-bullseye, 1.54.0-slim-bullseye, slim-bullseye
+Architectures: amd64, arm32v7, arm64v8, i386
+GitCommit: 21171fdd92e29acb045a41cd58b0d30d66aeaa7f
+Directory: 1.54.0/bullseye/slim
+
+Tags: 1-alpine3.13, 1.54-alpine3.13, 1.54.0-alpine3.13, alpine3.13
+Architectures: amd64, arm64v8
+GitCommit: 21171fdd92e29acb045a41cd58b0d30d66aeaa7f
+Directory: 1.54.0/alpine3.13
+
+Tags: 1-alpine3.14, 1.54-alpine3.14, 1.54.0-alpine3.14, alpine3.14, 1-alpine, 1.54-alpine, 1.54.0-alpine, alpine
+Architectures: amd64, arm64v8
+GitCommit: 21171fdd92e29acb045a41cd58b0d30d66aeaa7f
+Directory: 1.54.0/alpine3.14

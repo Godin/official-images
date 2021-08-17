@@ -1,21 +1,15 @@
-# this file is generated via https://github.com/docker-library/logstash/blob/ed8e1d89a264eed50f857601c7b4364af66155cd/generate-stackbrew-library.sh
+# this file is generated via https://github.com/docker-library/logstash/blob/f7d134ebe96d21adc7ff6f0bdc46e06db1a642e7/generate-stackbrew-library.sh
 
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/logstash.git
 
-Tags: 5.6.10, 5.6, 5, latest
-GitCommit: 7339f3d967a5e725c8c40c8b68d0e035b6005064
-Directory: 5
+Tags: 7.14.0
+Architectures: amd64, arm64v8
+GitCommit: 458cc387b0320cef6170dc8532b6695fd3daebff
+Directory: 7
 
-Tags: 5.6.10-alpine, 5.6-alpine, 5-alpine, alpine
-GitCommit: 7339f3d967a5e725c8c40c8b68d0e035b6005064
-Directory: 5/alpine
-
-Tags: 2.4.1, 2.4, 2
-GitCommit: 4f425e9008de3d0375d1749d390029808aed8d96
-Directory: 2.4
-
-Tags: 2.4.1-alpine, 2.4-alpine, 2-alpine
-GitCommit: 19330c802e6f198f015c0c4723a6d86ed449d93f
-Directory: 2.4/alpine
+Tags: 6.8.18
+Architectures: amd64
+GitCommit: b33a53e022f25be3395791b247227247642a6504
+Directory: 6

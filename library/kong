@@ -2,38 +2,38 @@ Maintainers: Kong Docker Maintainers <support@konghq.com> (@thekonginc)
 GitRepo: https://github.com/Kong/docker-kong.git
 # needs "Constraints" to match "centos" (which this image is "FROM")
 
-Tags: 0.14.0-alpine, 0.14.0, latest
-GitCommit: b628d7a4dcaade4eea5d61ba8c8d83f38ef07eee
+Tags: 2.5.0-alpine, 2.5.0, 2.5, alpine, latest
+GitCommit: ff3efa2c53e785e655a9c7de24c8111a373900cb
+GitFetch: refs/tags/2.5.0
 Directory: alpine
+Architectures: amd64, arm64v8
 
-Tags: 0.14.0-centos
-GitCommit: b628d7a4dcaade4eea5d61ba8c8d83f38ef07eee
-Constraints: !aufs
+Tags: 2.5.0-ubuntu, 2.5-ubuntu, ubuntu
+GitCommit: ff3efa2c53e785e655a9c7de24c8111a373900cb
+GitFetch: refs/tags/2.5.0
+Directory: ubuntu
+Architectures: amd64, arm64v8
+
+Tags: 2.5.0-centos, 2.5-centos, centos
+GitCommit: ff3efa2c53e785e655a9c7de24c8111a373900cb
+GitFetch: refs/tags/2.5.0
 Directory: centos
+Architectures: amd64
 
-Tags: 0.13.1-alpine, 0.13.1, 0.13
-GitCommit: 6e2035c5739482f0616021a7eda04ec6809d9f3e
+Tags: 2.4.1-alpine, 2.4-alpine, 2.4.1, 2.4
+GitCommit: e1b0a6c7eddd327926027692863a9900fd856977
+GitFetch: refs/tags/2.4.1
 Directory: alpine
+Architectures: amd64, arm64v8
 
-Tags: 0.13.1-centos, 0.13-centos
-GitCommit: 6e2035c5739482f0616021a7eda04ec6809d9f3e
-Constraints: !aufs
+Tags: 2.4.1-ubuntu, 2.4-ubuntu
+GitCommit: e1b0a6c7eddd327926027692863a9900fd856977
+GitFetch: refs/tags/2.4.1
+Directory: ubuntu
+Architectures: amd64, arm64v8
+
+Tags: 2.4.1-centos, 2.4-centos
+GitCommit: e1b0a6c7eddd327926027692863a9900fd856977
+GitFetch: refs/tags/2.4.1
 Directory: centos
-
-Tags: 0.12-alpine, 0.12.3-alpine
-GitCommit: 95f9e8ebfd735f4ab09af71bf060d200a9a7a981
-Directory: alpine
-
-Tags: 0.12-centos, 0.12.3-centos, 0.12, 0.12.3
-GitCommit: 95f9e8ebfd735f4ab09af71bf060d200a9a7a981
-Constraints: !aufs
-Directory: centos
-
-Tags: 0.11-alpine, 0.11.2-alpine
-GitCommit: 2ed0fad88ed81623ea4afb2111033a9d87f3c03c
-Directory: alpine
-
-Tags: 0.11, 0.11.2
-GitCommit: aa9ab06921a36079eb362229c9241ef9b3cf894e
-Constraints: !aufs
-Directory: centos
+Architectures: amd64

@@ -1,25 +1,41 @@
-# this file is generated via https://github.com/docker-library/pypy/blob/6639ae9a138cc307b44b695aa42adee696af7123/generate-stackbrew-library.sh
+# this file is generated via https://github.com/docker-library/pypy/blob/596e037750c79f94e3ac5cb9ec2ca28961987599/generate-stackbrew-library.sh
 
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/pypy.git
 
-Tags: 2-6.0.0, 2-6.0, 2-6, 2, 2-6.0.0-jessie, 2-6.0-jessie, 2-6-jessie, 2-jessie
-Architectures: amd64, arm32v5, i386
-GitCommit: d813837c73e726c0b5568297eff2f5a4b00c123f
-Directory: 2
+Tags: 3.7-7.3.5-buster, 3.7-7.3-buster, 3.7-7-buster, 3.7-buster, 3-7.3.5-buster, 3-7.3-buster, 3-7-buster, 3-buster, buster
+SharedTags: 3.7-7.3.5, 3.7-7.3, 3.7-7, 3.7, 3-7.3.5, 3-7.3, 3-7, 3, latest
+Architectures: amd64, arm64v8, i386, s390x
+GitCommit: ad122d7739f0d5e422be892847f10f809a14bf95
+Directory: 3.7/buster
 
-Tags: 2-6.0.0-slim, 2-6.0-slim, 2-6-slim, 2-slim, 2-6.0.0-slim-jessie, 2-6.0-slim-jessie, 2-6-slim-jessie, 2-slim-jessie
-Architectures: amd64, arm32v5, i386
-GitCommit: d813837c73e726c0b5568297eff2f5a4b00c123f
-Directory: 2/slim
+Tags: 3.7-7.3.5-slim, 3.7-7.3-slim, 3.7-7-slim, 3.7-slim, 3-7.3.5-slim, 3-7.3-slim, 3-7-slim, 3-slim, slim, 3.7-7.3.5-slim-buster, 3.7-7.3-slim-buster, 3.7-7-slim-buster, 3.7-slim-buster, 3-7.3.5-slim-buster, 3-7.3-slim-buster, 3-7-slim-buster, 3-slim-buster, slim-buster
+Architectures: amd64, arm64v8, i386, s390x
+GitCommit: ad122d7739f0d5e422be892847f10f809a14bf95
+Directory: 3.7/slim-buster
 
-Tags: 3-6.0.0, 3-6.0, 3-6, 3, latest, 3-6.0.0-jessie, 3-6.0-jessie, 3-6-jessie, 3-jessie, jessie
-Architectures: amd64, arm32v5, i386
-GitCommit: d813837c73e726c0b5568297eff2f5a4b00c123f
-Directory: 3
+Tags: 3.7-7.3.5-windowsservercore-1809, 3.7-7.3-windowsservercore-1809, 3.7-7-windowsservercore-1809, 3.7-windowsservercore-1809, 3-7.3.5-windowsservercore-1809, 3-7.3-windowsservercore-1809, 3-7-windowsservercore-1809, 3-windowsservercore-1809, windowsservercore-1809
+SharedTags: 3.7-7.3.5, 3.7-7.3, 3.7-7, 3.7, 3-7.3.5, 3-7.3, 3-7, 3, latest, 3.7-7.3.5-windowsservercore, 3.7-7.3-windowsservercore, 3.7-7-windowsservercore, 3.7-windowsservercore, 3-7.3.5-windowsservercore, 3-7.3-windowsservercore, 3-7-windowsservercore, 3-windowsservercore, windowsservercore
+Architectures: windows-amd64
+GitCommit: ad122d7739f0d5e422be892847f10f809a14bf95
+Directory: 3.7/windows/windowsservercore-1809
+Constraints: windowsservercore-1809
 
-Tags: 3-6.0.0-slim, 3-6.0-slim, 3-6-slim, 3-slim, slim, 3-6.0.0-slim-jessie, 3-6.0-slim-jessie, 3-6-slim-jessie, 3-slim-jessie, slim-jessie
-Architectures: amd64, arm32v5, i386
-GitCommit: d813837c73e726c0b5568297eff2f5a4b00c123f
-Directory: 3/slim
+Tags: 2.7-7.3.5-buster, 2.7-7.3-buster, 2.7-7-buster, 2.7-buster, 2-7.3.5-buster, 2-7.3-buster, 2-7-buster, 2-buster
+SharedTags: 2.7-7.3.5, 2.7-7.3, 2.7-7, 2.7, 2-7.3.5, 2-7.3, 2-7, 2
+Architectures: amd64, arm64v8, i386
+GitCommit: 21958c24c2a1357eb2464331598705649f2f7896
+Directory: 2.7/buster
+
+Tags: 2.7-7.3.5-slim, 2.7-7.3-slim, 2.7-7-slim, 2.7-slim, 2-7.3.5-slim, 2-7.3-slim, 2-7-slim, 2-slim, 2.7-7.3.5-slim-buster, 2.7-7.3-slim-buster, 2.7-7-slim-buster, 2.7-slim-buster, 2-7.3.5-slim-buster, 2-7.3-slim-buster, 2-7-slim-buster, 2-slim-buster
+Architectures: amd64, arm64v8, i386
+GitCommit: 21958c24c2a1357eb2464331598705649f2f7896
+Directory: 2.7/slim-buster
+
+Tags: 2.7-7.3.5-windowsservercore-1809, 2.7-7.3-windowsservercore-1809, 2.7-7-windowsservercore-1809, 2.7-windowsservercore-1809, 2-7.3.5-windowsservercore-1809, 2-7.3-windowsservercore-1809, 2-7-windowsservercore-1809, 2-windowsservercore-1809
+SharedTags: 2.7-7.3.5, 2.7-7.3, 2.7-7, 2.7, 2-7.3.5, 2-7.3, 2-7, 2, 2.7-7.3.5-windowsservercore, 2.7-7.3-windowsservercore, 2.7-7-windowsservercore, 2.7-windowsservercore, 2-7.3.5-windowsservercore, 2-7.3-windowsservercore, 2-7-windowsservercore, 2-windowsservercore
+Architectures: windows-amd64
+GitCommit: 21958c24c2a1357eb2464331598705649f2f7896
+Directory: 2.7/windows/windowsservercore-1809
+Constraints: windowsservercore-1809

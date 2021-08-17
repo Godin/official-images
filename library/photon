@@ -1,13 +1,27 @@
-# this file is generated via https://github.com/vmware/photon-docker-image/blob/6d092760fd1ddc1599fec313b61f8561b7634c81/generate-stackbrew-library.sh
+# this file is generated via https://github.com/vmware/photon-docker-image/blob/b018a869c90bb837e15bc97457d26eaedf9f9bed/generate-stackbrew-library.sh
 Maintainers: Fabio Rapposelli <fabio@vmware.com> (@frapposelli),
              Alexey Makhalov <amakhalov@vmware.com> (@YustasSwamp)
 GitRepo: https://github.com/vmware/photon-docker-image.git
 Directory: docker
 
-Tags: 2.0, 2.0-20180730, latest
-GitFetch: refs/heads/2.0-20180730
-GitCommit: 6557da19bcf6dbe6bd14a02408d6fb72200ad74a
+Tags: 4.0, 4.0-20210813, latest
+Architectures: amd64, arm64v8
+GitFetch: refs/heads/x86_64/4.0-20210813
+GitCommit: 76621c37cacfe81da8cd1cc8875fe653b0a0dfbd
+arm64v8-GitFetch: refs/heads/aarch64/4.0-20210813
+arm64v8-GitCommit: 6a990c70856788c8da0e535829f84d60d6d1c1bc
 
-Tags: 1.0, 1.0-20180806
-GitFetch: refs/heads/1.0-20180806
-GitCommit: 5c136d7f69313469da240da9a99e901f7da7b275
+Tags: 3.0, 3.0-20210813
+Architectures: amd64, arm64v8
+GitFetch: refs/heads/x86_64/3.0-20210813
+GitCommit: bbf238a95d5ebfd195cd7219f8b4c09496d321e8
+arm64v8-GitFetch: refs/heads/aarch64/3.0-20210813
+arm64v8-GitCommit: 500abf1dfa03a038df00dfd268c238aed07eec2c
+
+Tags: 1.0, 1.0-20210806
+GitFetch: refs/heads/1.0-20210806
+GitCommit: e95088cebd23b69980b5c598589376b4f7fc08fe
+
+Tags: 2.0, 2.0-20210806
+GitFetch: refs/heads/2.0-20210806
+GitCommit: ae3b705b45bf1db2ab92b414192b045e44704bfd

@@ -1,21 +1,35 @@
-Maintainers: Amazon Linux Team <amazon-linux@amazon.com> (@aws),
-             iliana weller (@ilianaw),
-             Praveen K Paladugu (@praveen-pk),
-             Eric Warehime (@Eric-Warehime)
-GitRepo: https://github.com/aws/amazon-linux-docker-images.git
+Maintainers: Amazon Linux <amazon-linux@amazon.com> (@amazonlinux),
+             Frédérick Lefebvre (@fred-lefebvre),
+             Samuel Karp (@samuelkarp),
+             Stewart Smith (@stewartsmith),
+             Jamie Anderson (@jamieand),
+             Christopher Miller (@mysteriouspants),
+             Sumit Tomer (@sktomer),
+             Sean Kelly (@cbgbt),
+             Tanu Rampal (@trampal)
+GitRepo: https://github.com/amazonlinux/container-images.git
+GitCommit: 1ab20d5962c3c160c55007313cf183aebaa4d9c6
 
-Tags: 2.0.20180622.1, 2, latest
-GitFetch: refs/heads/amzn2
-GitCommit: d59369b8dc1f3a41231d550274a565a349fb326b
+Tags: 2.0.20210721.2, 2, latest
+Architectures: amd64, arm64v8
+amd64-GitFetch: refs/heads/amzn2
+amd64-GitCommit: 6690b112365657326d5ff6f3b9e785687804df8f
+arm64v8-GitFetch: refs/heads/amzn2-arm64
+arm64v8-GitCommit: ceda4fe0a07fdfb35c13ba3b2ef406a72ad16f70
 
-Tags: 2.0.20180622.1-with-sources, 2-with-sources, with-sources
-GitFetch: refs/heads/amzn2-with-sources
-GitCommit: 54ffc6812a9912808ead357a6cb757c4db671121
+Tags: 2.0.20210721.2-with-sources, 2-with-sources, with-sources
+Architectures: amd64, arm64v8
+amd64-GitFetch: refs/heads/amzn2-with-sources
+amd64-GitCommit: 1cb9169ce0193baf64a7dc33dc8846734952597a
+arm64v8-GitFetch: refs/heads/amzn2-arm64-with-sources
+arm64v8-GitCommit: e5abdddc53e38c41554c158952ebc85a107d2560
 
-Tags: 2018.03.0.20180622, 2018.03, 1
-GitFetch: refs/heads/2018.03
-GitCommit: 790dac3b115c84613ae36e48491db746e4b7503d
+Tags: 2018.03.0.20210721.0, 2018.03, 1
+Architectures: amd64
+amd64-GitFetch: refs/heads/2018.03
+amd64-GitCommit: 5489a282cbdf7501d1137e4373d77a79636a45e4
 
-Tags: 2018.03.0.20180622-with-sources, 2018.03-with-sources, 1-with-sources
-GitFetch: refs/heads/2018.03-with-sources
-GitCommit: 299dd79dcf37b9354decee89bc243b95c7cddbaf
+Tags: 2018.03.0.20210721.0-with-sources, 2018.03-with-sources, 1-with-sources
+Architectures: amd64
+amd64-GitFetch: refs/heads/2018.03-with-sources
+amd64-GitCommit: 65bc90c3331e6908d445f89c0e140997b251a758

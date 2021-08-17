@@ -8,12 +8,17 @@ dir="$(dirname "$(readlink -f "$BASH_SOURCE")")"
 
 image="$1"
 
-# our image may not have "curl" (Alpine variants, for example)
-clientImage='buildpack-deps:stretch-curl'
+# Use a client image with curl for testing
+clientImage='buildpack-deps:buster-curl'
+# ensure the clientImage is ready and available
+if ! docker image inspect "$clientImage" &> /dev/null; then
+	docker pull "$clientImage" > /dev/null
+fi
 
 # Create an instance of the container-under-test
 # (explicitly setting a low memory limit since the image defaults to 2GB)
-cid="$(docker run -d -e ES_JAVA_OPTS='-Xms64m -Xmx64m' "$image")"
+# (disable "bootstrap checks" by setting discovery.type option)
+cid="$(docker run -d -e ES_JAVA_OPTS='-Xms128m -Xmx128m' -e discovery.type=single-node "$image")"
 trap "docker rm -vf $cid > /dev/null" EXIT
 
 _request() {
@@ -26,7 +31,8 @@ _request() {
 	# https://github.com/docker/docker/issues/14203#issuecomment-129865960 (DOCKER_FIX)
 	docker run --rm --link "$cid":es \
 		-e DOCKER_FIX='                                        ' \
-		"$clientImage" curl -fs -X"$method" "$@" "http://es:9200/$url"
+		"$clientImage" \
+		curl -fs -X"$method" "$@" "http://es:9200/$url"
 }
 
 _trimmed() {

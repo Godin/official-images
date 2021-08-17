@@ -1,14 +1,22 @@
-# maintainer: Couchbase Docker Team <docker@couchbase.com> (@couchbase)
+Maintainers: Couchbase Docker Team <docker@couchbase.com> (@cb-robot)
+GitRepo: https://github.com/couchbase/docker
 
-latest: https://github.com/couchbase/docker@fc55b9efd80129ab73373f94f9066186932e563e enterprise/couchbase-server/5.5.0
-enterprise: https://github.com/couchbase/docker@fc55b9efd80129ab73373f94f9066186932e563e enterprise/couchbase-server/5.5.0
-5.5.0: https://github.com/couchbase/docker@fc55b9efd80129ab73373f94f9066186932e563e enterprise/couchbase-server/5.5.0
-enterprise-5.5.0: https://github.com/couchbase/docker@fc55b9efd80129ab73373f94f9066186932e563e enterprise/couchbase-server/5.5.0
+Tags: latest, enterprise, 7.0.0, enterprise-7.0.0
+GitCommit: a4a4b016732b4ea3a42ea115f481c66ba69b980d
+Directory: enterprise/couchbase-server/7.0.0
 
-4.6.5: https://github.com/couchbase/docker@fc55b9efd80129ab73373f94f9066186932e563e enterprise/couchbase-server/4.6.5
-enterprise-4.6.5: https://github.com/couchbase/docker@fc55b9efd80129ab73373f94f9066186932e563e enterprise/couchbase-server/4.6.5
+Tags: community, community-7.0.0
+GitCommit: a4a4b016732b4ea3a42ea115f481c66ba69b980d
+Directory: community/couchbase-server/7.0.0
 
-community: https://github.com/couchbase/docker@fc55b9efd80129ab73373f94f9066186932e563e community/couchbase-server/5.1.1
-community-5.1.1: https://github.com/couchbase/docker@fc55b9efd80129ab73373f94f9066186932e563e community/couchbase-server/5.1.1
+Tags: 6.6.3, enterprise-6.6.3
+GitCommit: 3ff26f9a680d1449756b51e753324980087c0548
+Directory: enterprise/couchbase-server/6.6.3
 
-community-4.5.1: https://github.com/couchbase/docker@fc55b9efd80129ab73373f94f9066186932e563e community/couchbase-server/4.5.1
+Tags: community-6.6.0
+GitCommit: 5929be778eb5306f116f71cc9a0a23fea6d9a7aa
+Directory: community/couchbase-server/6.6.0
+
+Tags: 6.0.5, enterprise-6.0.5
+GitCommit: 5929be778eb5306f116f71cc9a0a23fea6d9a7aa
+Directory: enterprise/couchbase-server/6.0.5

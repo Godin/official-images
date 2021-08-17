@@ -1,23 +1,44 @@
-# this file is generated via https://github.com/docker-library/redmine/blob/10bdb805ef3e5a3edd4cd1a79369ae2bfdc6e3f9/generate-stackbrew-library.sh
+# this file is generated via https://github.com/docker-library/redmine/blob/3a41d66499222d90f2f4207c7f6dafd38f4001c5/generate-stackbrew-library.sh
 
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/redmine.git
 
-Tags: 3.4.6, 3.4, 3, latest
+Tags: 4.2.2, 4.2, 4, latest
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: 69082edc899cdbc69a00c4dd30d01f83fb59048f
-Directory: 3.4
+GitCommit: dbfcdff61cd9da51b2a5bd5146a381fa4c3776d8
+Directory: 4.2
 
-Tags: 3.4.6-passenger, 3.4-passenger, 3-passenger, passenger
-GitCommit: a28035fd89602f1e3573057ca7277d3e859fc7d7
-Directory: 3.4/passenger
+Tags: 4.2.2-passenger, 4.2-passenger, 4-passenger, passenger
+GitCommit: 88e2dafa2719a4196069257c2049f1a4ae457551
+Directory: 4.2/passenger
 
-Tags: 3.3.8, 3.3
+Tags: 4.2.2-alpine, 4.2-alpine, 4-alpine, alpine
+GitCommit: dbfcdff61cd9da51b2a5bd5146a381fa4c3776d8
+Directory: 4.2/alpine
+
+Tags: 4.1.4, 4.1
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: 69082edc899cdbc69a00c4dd30d01f83fb59048f
-Directory: 3.3
+GitCommit: b31875ae4c7534c0699ff0ffd5513cbb39813f44
+Directory: 4.1
 
-Tags: 3.3.8-passenger, 3.3-passenger
-GitCommit: a28035fd89602f1e3573057ca7277d3e859fc7d7
-Directory: 3.3/passenger
+Tags: 4.1.4-passenger, 4.1-passenger
+GitCommit: 88e2dafa2719a4196069257c2049f1a4ae457551
+Directory: 4.1/passenger
+
+Tags: 4.1.4-alpine, 4.1-alpine
+GitCommit: b31875ae4c7534c0699ff0ffd5513cbb39813f44
+Directory: 4.1/alpine
+
+Tags: 4.0.9, 4.0
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, s390x
+GitCommit: 02809f9dead7b26e490f84107c7a2170f11fd2b9
+Directory: 4.0
+
+Tags: 4.0.9-passenger, 4.0-passenger
+GitCommit: 88e2dafa2719a4196069257c2049f1a4ae457551
+Directory: 4.0/passenger
+
+Tags: 4.0.9-alpine, 4.0-alpine
+GitCommit: 02809f9dead7b26e490f84107c7a2170f11fd2b9
+Directory: 4.0/alpine
